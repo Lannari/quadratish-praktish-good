@@ -1,0 +1,26 @@
+.footer {
+  display: grid;
+  grid-template-columns: min-content min-content min-content min-content 1fr max-content;
+  margin: 92px 48px 24px;
+  gap: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin: 88px 48px 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+  margin: 88px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+  display: flex;
+  flex-direction: column;
+  margin: 64px 16px 24px;
+  }
+}
