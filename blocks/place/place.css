@@ -1,12 +1,14 @@
 .place {
     display: grid;
-    max-width: 984px;
-    grid-template-columns: 460px 484px;
+    
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
   "title website"
   "image paragraphs";
     gap: 48px 40px;
+
+    border: solid 1px red
 }
 
  @media screen and (max-width: 1024px) {
