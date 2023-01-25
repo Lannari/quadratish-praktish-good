@@ -1,5 +1,4 @@
 .cover__subtitle {
-width: 360px;
 margin-top: 32px;
 margin-left: auto;
 margin-right: auto;
@@ -22,7 +21,6 @@ color: #FFFFFF;
 @media screen and (max-width: 320px) {
     .cover__subtitle {
       margin-top: 16px;
-      width: 288px;
       font-size: 14px;
       line-height: 16px;
     }
