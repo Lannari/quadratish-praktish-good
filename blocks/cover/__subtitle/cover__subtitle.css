@@ -4,7 +4,8 @@ padding: 0;
 text-align: center;
 z-index: 5;
 
-font-family: 'Inter';
+max-width: 360px;
+
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -27,6 +28,7 @@ color: #FFFFFF;
 
 @media screen and (max-width: 424px) {
     .cover__subtitle {
+      max-width: 288px;
       margin: 16px auto 33px;
       font-size: 14px;
       line-height: 16px;

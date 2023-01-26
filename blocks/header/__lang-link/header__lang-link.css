@@ -2,8 +2,7 @@
   margin-left: 18px;
   margin-top: 18px;
   width: 30px;
-  height: 28px;
-  font-family: 'Inter';
+  
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -23,7 +22,6 @@
 @media screen and (max-width: 320px) {
   .header__lang-link {
     width: 22px;
-    height: 20px;
     margin-top: 14px;
     font-size: 18px;
     line-height: 20px;

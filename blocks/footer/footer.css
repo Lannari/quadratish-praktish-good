@@ -1,8 +1,8 @@
 .footer {
-  display: grid;
-  grid-template-columns: min-content min-content min-content min-content 1fr max-content;
+  display: flex;
+  flex-direction: row;
   margin: 92px 48px 24px;
-  gap: 18px;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,9 +19,8 @@
 
 @media screen and (max-width: 700px) {
   .footer {
-  display: flex;
   flex-direction: column;
   margin: 64px 16px 24px;
-  gap: 32px;
+  gap: 48px;
   }
 }
